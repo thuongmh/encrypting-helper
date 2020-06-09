@@ -2,9 +2,14 @@
 
 Run
    ```   
-   composer require thuongmh/encryting-helper --dev
+   composer require thuongmh/encrypting-helper --dev
    ```
    in console to install this module
    
-   use App\Http\Controllers;
-   CryptionHelper::decryptionHelper($key)
+Manual
+
+import in config/app.php
+\thuongmh\helperEncryption\HelperPackageServiceProvider::class,
+
+use App\Http\Controllers
+CryptionHelper::decryptionHelper($key)
