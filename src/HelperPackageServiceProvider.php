@@ -7,7 +7,7 @@ class HelperPackageServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->make('encryptingHelper\thuongmh\helperEncryption\EncryptionController');
+        $this->app->make('thuongmh\helperEncryption\EncryptionController');
     }
 
     public function boot ()
