@@ -1,0 +1,16 @@
+{
+    "name": "thuongmh/thuongmh",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thuongmh",
+            "email": "mai.huy.thuong@vinicorp.com.vn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "thuongmh\\helperEncryption\\": "src/"
+        }
+    }
+}
