@@ -1,5 +1,5 @@
 {
-    "name": "thuongmh/helperEncryption",
+    "name": "encryptingHelper/thuongmh/helperEncryption",
     "authors": [
         {
             "name": "thuongmaihuy",
@@ -10,14 +10,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "thuongmh\\helperEncryption\\HelperPackageServiceProvider"
+                "encryptingHelper\\thuongmh\\helperEncryption\\HelperPackageServiceProvider"
             ]
         }
     },
     "require": {},
     "autoload": {
         "psr-4": {
-            "thuongmh\\helperEncryption\\": "src/"
+            "encryptingHelper\\thuongmh\\helperEncryption\\": "src/"
         }
     }
 }
