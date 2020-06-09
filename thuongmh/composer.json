@@ -1,5 +1,5 @@
 {
-    "name": "encryptingHelper/thuongmh",
+    "name": "thuongmh/encryptingHelper",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "encryptingHelper\\thuongmh\\helperEncryption\\": "src/"
+            "thuongmh\\helperEncryption\\": "src/"
         }
     }
 }
