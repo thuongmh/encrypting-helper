@@ -10,7 +10,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "thuongmh\\helperEncryption\\": "src/"
+            "encryptingHelper\\thuongmh\\helperEncryption\\": "src/"
         }
     }
 }
