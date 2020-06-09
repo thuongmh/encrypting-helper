@@ -1,0 +1,23 @@
+{
+    "name": "thuongmh/helperpackage",
+    "authors": [
+        {
+            "name": "thuongmaihuy",
+            "email": "thuongmaihuy91@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "thuongmh\\helperEncryption\\HelperPackageServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "thuongmh\\helperEncryption\\": "src/"
+        }
+    }
+}
